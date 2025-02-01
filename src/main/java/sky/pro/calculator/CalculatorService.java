@@ -21,21 +21,21 @@ public class CalculatorService implements CalculatorServiceInterface {
     }
 
     public String diff(Integer num1, Integer num2) {
-        if (parametersAvailability(num1, num2)){
+        if (parametersAvailability(num1, num2)) {
             return "Необходимо ввести все параметры";
         }
         return num1 + " - " + num2 + " = " + (num1 - num2);
     }
 
     public String mul(Integer num1, Integer num2) {
-        if (parametersAvailability(num1, num2)){
+        if (parametersAvailability(num1, num2)) {
             return "Необходимо ввести все параметры";
         }
         return num1 + " * " + num2 + " = " + (num1 * num2);
     }
 
     public String div(Integer num1, Integer num2) {
-        if (parametersAvailability(num1, num2)){
+        if (parametersAvailability(num1, num2)) {
             return "Необходимо ввести все параметры";
         }
         if (num2 == 0) {
