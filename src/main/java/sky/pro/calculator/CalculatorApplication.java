@@ -12,3 +12,5 @@ public class CalculatorApplication {
 	}
 
 }
+
+// CTRl + F5 перезапуск
